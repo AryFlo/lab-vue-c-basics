@@ -64,8 +64,8 @@ function toggleColor() {
     <section class="button-color">
       <h2>Color dinámico:</h2>
       <div :style="{ backgroundColor: isGreen ? 'Green' : 'lightgreen' }" class="color-box">
-        <p>Haz clic para cambiar el color</p>
-        <button @click="toggleColor">Cambiar color</button>
+        <p>Click to change color</p>
+        <button @click="toggleColor">Change color</button>
       </div>
     </section>
   </main>
